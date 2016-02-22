@@ -1,0 +1,397 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*---------------------------------Common---------------------------------*/
+
+/*header*/
+
+#header{
+	position: fixed;
+	height: 10%;
+	width: 100%;
+	z-index: 1;
+	opacity: 0.9;
+	background-color: black;
+}
+
+#logohold{
+	width: 18%;
+	float: left;
+}
+
+#logohold h1{
+	color: white;
+	font-family: Gotham Book;
+	margin-top: 9%;
+}
+
+#logo{
+	width: 25%;
+	float: left;
+	margin-left: 6%;
+}
+
+#nav{
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+
+#nav ul li{
+	list-style: none;
+	color: white;
+	float: right;
+	font-family: Gotham Light;
+	font-size: 100%;
+	padding-top: 4%;
+	padding-right: 5%;
+}
+
+#nav ul a li:hover{
+	border-bottom: 1px solid red;
+}
+
+#sign{
+	width: 5%;
+	height: 30%;
+	color: red;
+	float: right;
+	border-style: solid;
+	border-width: thick;
+	border-color: red;
+	border-radius: 10px;
+	margin-right: 2%;
+	margin-top: 1%;
+	text-align: center;
+	font-size: 100%;
+	font-family: Gotham Book;
+	padding-top: 0.5%;
+	cursor: pointer;
+}
+
+#frame { 
+  display: none;
+  position: absolute;
+  float: right;
+  margin-left:80%;
+  margin-top:5%;
+  width:20%;
+  height:300px;
+  background:black;
+}
+
+.close { 
+	width: 30px; 
+	height: 30px; 
+	color: white;
+	float: right;
+	font-family: Gotham Light;
+	cursor: pointer;
+}
+
+#formformat{
+	width: 100%;
+	float: left;
+	color: white;
+	font-family: Gotham Light;
+	text-align: center;
+}
+
+#formformat h4{
+	color: white;
+	font-family: Gotham Light;
+	padding-top: 5%;
+}
+
+#formformat input{
+	margin-top: 5%;
+}
+
+/*---------------------------------index---------------------------------*/
+/*section 1*/
+#backscreen{
+	width: 100%;
+	height: 90%;
+	background: black;
+	background-image: url("/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/library1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	float: left;	
+}
+
+#backscreen h2{
+	font-size: 200%;
+	color: white;
+	text-align: center;
+	line-height: 240%;
+	padding-top: 9%;
+	font-family: Gotham Light;
+}
+
+#backscreen h5{
+	color: white;
+	text-align: center;
+	line-height: 480%;
+	font-family: Gotham Light;
+	padding-bottom: 5%;
+}
+
+/*section 2*/
+
+#container{
+	width: 60%;
+	height: 100%;
+	position: relative;
+	margin: auto;
+}
+
+#images{
+	width: 100%;
+	height: 60%;
+	float: left;
+}
+
+#images img{
+	width: 22%;
+	margin-top: 3%;
+	margin-left: 7%;
+	margin-right: 8%;
+}
+
+#info{
+	width: 100%;
+	height: 40%;
+	position: relative;
+	margin: auto;
+	float: left;
+	/*border-bottom: 1px solid red;*/
+}
+
+.box{
+	width: 25%;
+	height: 100%;
+	float: left;
+	padding: 2%;
+	margin-left: 3.5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+	font-family: Gotham Light;
+}
+
+#works{
+	width: 15%;
+	border-radius: 10px;
+	background-color: red;
+	position: relative;
+	float: left;
+	padding: 1%;
+	margin-left: 42%;
+	text-align: center;
+	font-family: Gotham Book;
+	margin-bottom: 5%;
+}
+
+#works a{
+	color: white;
+	text-decoration: none;
+}
+
+/*section 3*/
+
+#scroll-feature{
+    width: 60%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+@media only screen and (max-width: 480px) {
+ 	.horiz-scroll .scroller .left-scroll p,
+    .horiz-scroll .scroller .right-scroll p {
+    	color: black;
+    }
+}
+
+.horiz-scroll .scroller .scrollable-x {
+	white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.horiz-scroll .scroller .scroll-images img {
+	width: 18%;
+    top: 0;
+    z-index: 0;
+    -webkit-transition: all 100ms;
+    transition: all 100ms;
+    position: relative;
+}
+
+@media only screen and (max-width: 960px) {
+	.horiz-scroll .scroller .scroll-images img {
+    	width: 33.333%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+	.horiz-scroll .scroller .scroll-images img {
+    	width: 50%;
+    }
+}
+
+#readmore{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+#readmore h2{
+	font-size: 200%;
+	text-align: center;
+	line-height: 240%;
+	font-family: Gotham Light;	
+	padding-top: 1%;
+}
+
+.tags{
+	width: 60%;
+	height: 100%;
+	text-align: center;
+	font-family: Gotham Light;
+	padding: 1%;
+	border-bottom: 1px solid red;
+	margin: auto;
+}
+
+/*featured*/
+#group{
+	width: 20%;
+	float: left;
+}
+
+#group img{
+	width: 100%;
+}
+
+#aboutg{
+	width: 80%;
+	float: left;
+}
+
+#aboutg h4{
+	font-family: Gotham Light;
+	padding-left: 2%;
+}
+
+#aboutg p{
+	font-family: Gotham Light;
+	line-height: 25px;
+	padding-left: 2%;
+	text-align: justify;
+}
+
+.feature{
+	float: left;
+}
+
+/*footer*/
+
+#footer{
+	width: 100%;
+	float: left;
+	position: relative;
+	margin-top: 3%;
+}
+
+#menu{
+	position: absolute;
+	width: 60%;
+	margin-left: 20%;
+	border-bottom: 1px solid red;
+}
+
+#menu a div{
+	width: 15%;
+	list-style: none;
+	float: left;
+	padding-left: 9%;
+	padding-top: 1%;
+	padding-bottom: 0.5%;
+	font-family: Gotham Light;
+	font-size: 70%;
+	color: black;
+}
+
+#copy{
+	margin-top: 2%;
+	width: 100%;
+	height: 10%;
+	text-align: center;
+	float: left;
+	font-family: Gotham Light;
+	font-size: 70%;
+	margin-bottom: 1%;
+}
+
+/*---------------------------------how it works---------------------------------*/
+#container h4{
+	font-family: Gotham Book;
+	padding-top: 1%
+}
+
+#container h5{
+	font-family: Gotham Light;
+	padding-top: 1%;	
+	padding-bottom: 1%;
+}
+
+#icons img{
+	width: 12%;
+	float: right;
+	margin-right: 10%;
+	margin-top:3%;
+}
+
+/*---------------------------------sign---------------------------------*/
+#upload{
+	width: 15%;
+	border-radius: 10px;
+	background-color: red;
+	position: relative;
+	float: left;
+	padding: 1%;
+	margin-left: 42%;
+	text-align: center;
+	font-family: Gotham Book;
+	margin-bottom: 1%;
+	cursor: pointer;	
+}
+
+#format{
+	position: fixed;
+	z-index: 1;
+	background-color: rgba(255,0,0,0.1);
+	font-family: Gotham Light;
+	line-height: 35px;
+	text-align: left;
+	font-size: 15px;	
+	padding-left: 1%;
+}
+
+#format button{
+	width: 60%;
+	border-radius: 10px;
+	background-color: white;
+	border: 1px thin rgba(255,0,0);
+	float: left;
+	padding: 4%;
+	font-family: Gotham Book;
+	font-size: 12px;	
+	margin-left: 32px
+	margin-top: 100px;
+}

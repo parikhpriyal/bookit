@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About Us</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="shortcut icon" href="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/logo1.png">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script type="text/javascript" src="scripts/login.js"></script>
+	</head>
+	<body>
+		<!-- header and navigation -->
+		<div id="header">
+			<!-- logo -->
+			<div id="logohold">
+				<!-- <span>BOOK.IT</span>				 -->
+				<a href="index.html"><img id="logo" src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/logo1.png"></a>
+				<h1>BOOK.IT</h1>
+			</div>
+			<!-- sign up -->
+      		<div id="sign" onclick = "popwind()">Sign in</div>
+  
+		    <div id="frame">
+		        <div class="close" onclick="divhide()">x</div>   
+		        <div id="formformat">
+		          	<h1>Welcome!</h1>
+		          	<div id="false"></div>
+		          	<form name="myform" onsubmit="loadnew()">
+			            <center>
+			              <h4>Username:</h4> <input type="text" name="username" id="username">
+			              <h4>Password:</h4> <input type="password" name="password" id="pass"><br>
+			              <input type="submit" value="Log In" style="border-style: solid; border-width: thin; border-color: red; border-radius: 10px; color: red; font-family: Gotham Light; background: black; font-size: 15px; padding: 2%">
+			            </center>
+		          	</form>
+		        </div>
+		    </div>  
+			<!-- navigation -->
+			<div id="nav">
+				<ul>
+					<a href="#"><li>FAQs</li></a>
+					<a href="#"><li>Browse</li></a>
+					<a href="how.html"><li>How It Works</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- section 1 -->
+		<div id="backscreen" style="background-image: url('/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/jbq.jpg');">
+			<div>
+				<h2>The worth of a book is to be measured <br>by what you can carry away from it.</h2>
+				<h5> - James Bryce</h5>				
+			</div>
+		</div>
+		<!-- section 2 -->
+		<div id="readmore">
+		    <div id = "container" style = "padding-top: 2%; padding-bottom: 2%; text-align: justify">
+			    <h4><center>Book.It is a community for all those who love books and those who love to talk about books.</center><br><br>
+			    	<p>We are more than a book swapping website. We are a community of book lovers. We offer the platform to exchange books, connect with other readers, start discussions on your favorite literary topics and fill your book apetite.</p><br>
+
+			    	<p>We know how difficult it is for book lovers to throw away their books, even though they read it only once. Instead, Book.It allows members to create a wishlist of books they want to read and a swap list of books they want to give. This helps members find good houses for their precious collection.</p><br>
+			    	
+			    	<p>With an easy no-money system, we make it easier for members to make their own choices and customize as per their requirements. The points are easy to earn and make the process of swapping easy and pain less.</p><br>
+			    	
+			    	<p>Book.It is not limited to book swapping. We are a community. As a community, we express, communicate and discuss. Our members can create their own forums, join existing discussions or have private conversations with other members.</p><br>
+
+			    	<p>You could sign in as an author, publisher, swapper or association. An author can publish their stories on the Book.It blog and while publishers can meet authors and find new talent.</p>
+
+			    	<p>As a start-up, we are limited to the city of New York. With the continuous love and support of our members, we look forward to crossing multiple geographical boundaries and embrace several more members into our community. </p>
+			    </h4>
+		    </div>	
+	    </div>
+		<!-- footer -->
+		<div id="footer">
+			<!-- menu -->
+			<div id="menu">
+					<a href="about.html"><div>About</div></a>
+					<a href="#"><div>Contact Us</div></a>
+					<a href="#"><div>Privacy Policy</div></a>
+					<a href="references.html"><div>References</div></a>
+			</div>
+			<!-- copyrights -->
+			<div id="copy">Copyright &copy 2016 Priyal Parikh</div>
+		</div>	
+	</body>
+</html>

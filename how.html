@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>How It Works</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="shortcut icon" href="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/logo1.png">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script type="text/javascript" src="scripts/main.js"></script>
+	</head>
+	<body>
+		<!-- header and navigation -->
+		<div id="header">
+			<!-- logo -->
+			<div id="logohold">
+				<!-- <span>BOOK.IT</span>				 -->
+				<a href="index.html"><img id="logo" src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/logo1.png"></a>
+				<h1>BOOK.IT</h1>
+			</div>
+			<!-- sign up -->
+			<!-- sign up -->
+		    <div id="sign" onclick = "popwind()">Sign in</div>
+		  
+		    <div id="frame">
+		        <div class="close" onclick="divhide()">x</div>   
+		        <div id="formformat">
+		          	<h1>Welcome!</h1>
+		          	<div id="false"></div>
+		          	<form name="myform" onsubmit="loadnew()">
+			            <center>
+			              <h4>Username:</h4> <input type="text" name="username" id="username">
+			              <h4>Password:</h4> <input type="password" name="password" id="pass"><br>
+			              <input type="submit" value="Log In" style="border-style: solid; border-width: thin; border-color: red; border-radius: 10px; color: red; font-family: Gotham Light; background: black; font-size: 15px; padding: 2%">
+			            </center>
+		          	</form>
+		        </div>
+		    </div>   
+			<!-- navigation -->
+			<div id="nav">
+				<ul>
+					<a href="#"><li>FAQs</li></a>
+					<a href="#"><li>Browse</li></a>
+					<a href="how.html"><li>How It Works</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- section 1 -->
+		<div id="backscreen" style="background-image: url('/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/hills.jpg');">
+			<div>
+				<h2>A reader lives a thousand lives before he dies. <br>The man who never reads lives only one.</h2>
+				<h5> - George R.R. Martin</h5>				
+			</div>
+		</div>
+		<!-- section 2 -->
+		<div id="readmore">
+		    <h2> When you join the <span style = "color: red">Community!</span></h2>
+		    <div id = "container">
+		    	<div id="icons" style="width: 30%; float: left;">
+		    		<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/lock.png">
+		    	</div>
+		    	<h4>Signup or Login</h4>
+		    	<h5>Create a username and password</h5><br>
+		    	<div id="icons" style="width: 30%; float: left;">
+		    		<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/profile.png">
+		    	</div>
+		    	<h4>Create your profile</h4>
+			    <h5>Fill in the details to create your online profile</h5><br>
+			    <div id="icons" style="width: 30%; float: left;">
+		    		<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/wishlist.png">
+		    	</div>
+		    	<h4>Upload your wishlist</h4>
+			    <h5>Make a list of all the books you want to receive</h5><br>
+			    <div id="icons" style="width: 30%; float: left;">
+		    		<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/swap.png">
+		    	</div>
+		    	<h4>Create your swap library</h4>
+			    <h5>List the books you want to give and earn a point for every entry</h5><br>
+		    </div>	
+	    </div>
+	    <!-- section 3 -->
+		<div id="readmore" style="background: #e6e6e6">
+		    <h2> After you join the <span style = "color: red">Community!</span></h2>
+		    <div id = "container">
+		    	<div id="icons" style="width: 30%; float: left;">
+		    		<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/favbook.png">
+		    	</div>
+			    <h4>Found a book from your wishlist</h4>
+			    <h5>Use your points to get a book</h5><br>
+			    <div id="icons" style="width: 30%; float: left;">
+		    		<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/connect.png">
+		    	</div>
+			    <h4>Connect with the owner</h4>
+			    <h5>Speak to the owner online and identify your method of exchange</h5><br>
+			    <div id="icons" style="width: 30%; float: left;">
+		    		<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/speak.png">
+		    	</div>
+			    <h4>Have something to say</h4>
+			    <h5>Create a forum and start a conversation</h5><br>
+			    <div id="icons" style="width: 30%; float: left;">
+		    		<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/miss.png">
+		    	</div>
+			    <h4>Missed out on something</h4>
+			    <h5>Receive email updates for all activities</h5><br>
+		    	
+		    </div>
+	    </div>
+	    <div id="readmore">
+		    <h2> Points for <span style = "color: red">Exchanges!</span></h2>
+		    <div id = "container">
+		    	<div id="icons" style="width: 30%; float: left;">
+		    		<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/one.png">
+		    	</div>
+		    	<h4>For every entry to the swap list</h4>
+		    	<h5>1 book entered = 1 point</h5><br>
+		    	<div id="icons" style="width: 30%; float: left;">
+		    		<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/one.png">
+		    	</div>
+		    	<h4>For every book matched on your wishlist</h4>
+		    	<h5>1 book purchased = 1 point</h5><br>
+		    	<div id="icons" style="width: 30%; float: left;">
+		    		<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/balance.png">
+		    	</div>
+		    	<h4>Maintain a balance</h4>
+		    	<h5>For every 4 books purchased, swap at least 1 book</h5><br>
+		    	<div id="icons" style="width: 30%; float: left;">
+		    		<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/one.png">
+		    	</div>
+		    	<h4>Track the feedback</h4>
+		    	<h5>1 good feedback = 1 point</h5><br>
+		    	<div id="icons" style="width: 30%; float: left;">
+		    		<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/pack.png">
+		    	</div>
+		    	<h4>Ensure delivery</h4>
+		    	<h5>Upto 5 books as "lost in delivery", sender gets 1 point and receiver loses none</h5><br>
+		    	<div id="icons" style="width: 30%; float: left;">
+		    		<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/wishlist.png">
+		    	</div>
+		    	<h4>Beyond 200 books on your wishlist</h4>
+		    	<h5>Buy our exclusive membership for $10 a quarter or $25 a year</h5><br>
+		    </div>	
+	    </div>
+		<!-- footer -->
+		<div id="footer">
+			<!-- menu -->
+			<div id="menu">
+					<a href="about.html"><div>About</div></a>
+					<a href="#"><div>Contact Us</div></a>
+					<a href="#"><div>Privacy Policy</div></a>
+					<a href="references.html"><div>References</div></a>
+			</div>
+			<!-- copyrights -->
+			<div id="copy">Copyright &copy 2016 Priyal Parikh</div>
+		</div>	
+	</body>
+</html>

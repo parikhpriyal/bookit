@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello Priyal</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/slider-sign.css">
+		<link rel="shortcut icon" href="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/logo1.png">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script type="text/javascript" src="scripts/main.js"></script>
+	</head>
+	<body>
+		<!-- header and navigation -->
+		<div id="header">
+			<!-- logo -->
+			<div id="logohold">
+				<!-- <span>BOOK.IT</span>				 -->
+				<a href="index.html"><img id="logo" src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/logo1.png"></a>
+				<h1>BOOK.IT</h1>
+			</div>
+			<!-- sign up -->
+		    <div id="sign" onclick = "popwind()">Hello</div>
+		  
+		    <div id="frame" style="height: 150px">
+		        <div class="close" onclick="divhide()">x</div>   
+		        <div id="formformat">
+		          	<h1>Hello Priyal</h1>
+		          	<div id="false"></div>
+		          	<form name="myform" onsubmit="logOut()">
+			            <center>
+			              <input type="submit" value="Log Out" style="border-style: solid; border-width: thin; border-color: red; border-radius: 10px; color: red; font-family: Gotham Light; background: black; font-size: 15px; padding: 2%">
+			            </center>
+		          	</form>
+		        </div>
+		    </div>   
+			<!-- navigation -->
+			<div id="nav">
+				<ul>
+					<a href="#"><li>FAQs</li></a>
+					<a href="#"><li>Browse</li></a>
+					<a href="how.html"><li>How It Works</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- section 1 -->
+		
+		<!-- section 2 -->
+		<div id="readmore" style="margin-top: 5%; width: 70%; margin-left: 7%">  
+		    <div id = "container2">
+			    <div style="float: right; width: 18%; margin-top: 3%">
+					<!-- <center><img src="#"></center> -->
+					<center>
+						<div id="format" style="height:580px">
+							<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/dp.jpeg" style="width:90%; margin-top: 20px; margin-left: 2%"><br>
+							Username: Squiggy<br>
+							Book.It Age: 3 months<br>
+							Reputation Level: 1<br>
+							Wished: 5<br>
+							Swapped: 3<br>
+							<button style="margin-top: 120px;margin-left: 40px;">Edit Profile</button>
+						</div>
+					</center>
+				</div>
+		        <div class="tags"><h3>Your wishlist</h3></div>
+		        	<!-- Slider -->
+			        <div id="scroll-feature" class="horiz-scroll">
+			          	<div class="scroller">
+				            <div class="scroll-images scrollable-x">
+				             	<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/nwmd.jpg" alt="Image 1">
+				              	<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/tws.jpg" alt="Image 2">
+				              	<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/tls.jpg" alt="Image 3">
+				              	<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/tt.jpg" alt="Image 4">
+				              	<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/twi.jpg" alt="Image 5">
+				              	<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/aat.jpeg" alt="Image 6">
+				              	<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/jagp.jpg" alt="Image 7">
+				              	<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/ci.jpg" alt="Image 8">
+				              	<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/taw.jpg" alt="Image 9">
+				              	<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/tfs.jpg" alt="Image 10">
+				              	<img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/bnw.jpg" alt="Image 11">
+				            </div>
+			          	</div>
+			    	</div>
+		    		<div id="upload" onclick="addmore()">Add wishes</div>
+		    		<div class="tags" style="margin-top: 10%"><h3>Your Swaplist</h3></div>  
+		        	<!-- Slider -->
+			        <div id="scroll-feature" class="horiz-scroll">
+				        <div class="scroller">
+				            <div class="scroll-images scrollable-x">
+				              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/cc.jpg" alt="Image 1">
+				              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/ka.jpeg" alt="Image 2">
+				              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/mc.jpg" alt="Image 3">
+				              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/doc.jpg" alt="Image 4">
+				              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/ycw.jpeg" alt="Image 5">
+				              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/nm.jpg" alt="Image 6">
+				              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/bd.jpg" alt="Image 7">
+				              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/tw.jpg" alt="Image 8">
+				              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/ls.jpg" alt="Image 9">
+				              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/sn.jpg" alt="Image 10">
+				              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/imm.jpg" alt="Image 11">
+				            </div>
+				        </div>
+			        </div>
+		        	<div id="upload" onclick="showswap()">Add swaps</div>
+		    	</div>
+			</div>
+		</div>
+		<!-- section 2 -->
+		<div id="readmore" style="width: 70%; margin-left: 7%">  
+		    <div id = "container2">
+			    
+		        <div class="tags" style="margin-top: 5%"><h3>Your Groups</h3></div>
+		        <div class="team-slider" id="team-slider">
+					<div class="slider-container">
+		                <ul class="slider" data-slide="1"> 
+		                    <li class="slides" data-id="1">
+		                      <div id="group">
+		                        <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/always.jpg">
+		                      </div>
+		                      <div id="aboutg">
+		                        <h4>Hogwarts Chain of Thoughts</h4><br>
+		                        <p>This group is a Harry Potter fan club with insights from J.K. Rowling steering conversations by disclosing secrets and insights about characters, plots and plans about the Potter series.</p>
+		                      </div>
+		                    </li>
+		                    <li class="slides" data-id="2" >
+		                      <div id="group">
+		                        <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/bs.jpeg">
+		                      </div>
+		                      <div id="aboutg">
+		                        <h4>Best-sellers</h4><br>
+		                        <p>Read reviews and discuss the latest best-sellers. Here is a chance for everyone to put forth their point of view and speak about your favorites or not-so-favorties.</p>
+		                      </div>
+		                    </li>
+		                    <li class="slides" data-id="3" >
+		                      <div id="group">
+		                        <center><img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/fan.jpeg"></center>
+		                      </div>
+		                      <div id="aboutg">
+		                        <h4>Fandomia</h4><br>
+		                        <p>Are you a fan of collecting bookish articles and objects? Don't know where to find the latest collectibles? Missed out on something you like? Join the grouo and know more.</p>
+		                      </div>
+		                    </li>
+		                </ul>
+		            </div>
+		 
+		            <div class="slider-bullets">
+		                <ul>
+		                    <li class="bullet active"><a href="#1" id="bullet-1"></a></li>
+		                    <li class="bullet"><a href="#2" id="bullet-2"></a></li>
+		                    <li class="bullet"><a href="#3" id="bullet-3"></a></li>
+		                </ul>
+		            </div> 
+		        </div>
+
+		        <div id="upload">Click to view all</div>
+			</div>
+		</div>
+		<!-- footer -->
+		<div id="footer">
+			<!-- menu -->
+			<div id="menu">
+					<a href="about.html"><div>About</div></a>
+					<a href="#"><div>Contact Us</div></a>
+					<a href="#"><div>Privacy Policy</div></a>
+					<a href="references.html"><div>References</div></a>
+			</div>
+			<!-- copyrights -->
+			<div id="copy">Copyright &copy 2016 Priyal Parikh</div>
+		</div>	
+	</body>
+</html>

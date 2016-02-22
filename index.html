@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/logo1.png">
+		<title>Book.It</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slider-index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+	</head>
+
+	<body>
+    <!-- header and navigation -->
+    <div id="header">
+      <!-- logo -->
+      <div id="logohold">
+        <a href="index.html"><img id="logo" src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/logo1.png"></a>
+        <h1>BOOK.IT</h1>
+      </div>
+      <!-- sign up -->
+      <div id="sign" onclick = "popwind()">Sign in</div>
+  
+      <div id="frame">
+        <div class="close" onclick="divhide()">x</div>   
+        <div id="formformat">
+          <h1>Welcome!</h1>
+          <div id="false"></div>
+          <form name="myform" onsubmit="loadnew()">
+            <center>
+              <h4>Username:</h4> <input type="text" name="username" id="username">
+              <h4>Password:</h4> <input type="password" name="password" id="pass"><br>
+              <input type="submit" value="Log In" style="border-style: solid; border-width: thin; border-color: red; border-radius: 10px; color: red; font-family: Gotham Light; background: black; font-size: 15px; padding: 2%">
+            </center>
+          </form>
+        </div>
+      </div> 
+      <!-- navigation -->
+      <div id="nav">
+        <ul>
+          <a href="#"><li>FAQs</li></a>
+          <a href="#"><li>Browse</li></a>
+          <a href="how.html"><li>How It Works</li></a>
+        </ul>
+      </div>
+    </div>
+    <!-- section 1 -->
+    <div id="backscreen">
+      <div>
+        <h2>People still love paper,<br>people still love books,<br>people still love to collect.<br>You don't collect web sites,<br>you don't collect digital experiences.</h2>
+        <h5> - Richard Powell, Creative Director at Monocle</h5>
+      </div>
+    </div>
+    <!-- section 2 -->
+    <div id="readmore">
+      <h2> It's not just book swapping! <span style = "color: red">It's a community!</span></h2>
+      <!-- steps illustration -->
+      <div id = "container">
+        <!-- row for images -->
+        <div id = "images">
+          <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/signup.png">
+          <img style="width:12%" src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/booksearch.png">
+          <img style="width:13%; margin-left: 10%" src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/package.png">
+        </div>
+        <!-- row for instructions -->
+        <div id="info">
+          <div class="box"><h3>Sign Up!</h3> <br>Log in and explore!</div>
+          <div class="box"><h3>Setup!</h3><br>Create your wishlists and upload your collections!</div>
+          <div class="box"><h3>Start!</h3><br>Connect, send and recieve books!</div>
+          <div id="works"><a href="how.html">How it works</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- section 3 -->
+    <div id="readmore" style="background: #e6e6e6">  
+      <h2>Recent Updates</h2>
+      <div id = "container2">
+        <div class="tags"><h3>Books Available</h3></div>
+        <!-- Slider -->
+        <div id="scroll-feature" class="horiz-scroll">
+          <div class="scroller">
+            <div class="scroll-images scrollable-x">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/sl.jpg" alt="Image 1">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/tm.jpeg" alt="Image 2">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/un.jpg" alt="Image 3">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/or.jpg" alt="Image 4">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/ka.jpeg" alt="Image 5">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/aw.jpg" alt="Image 6">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/c2.jpg" alt="Image 7">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/bw.png" alt="Image 8">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/h1.jpg" alt="Image 9">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/or.jpeg" alt="Image 10">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/mi.jpg" alt="Image 11">
+            </div>
+          </div>
+      </div>
+      <div class="tags"><h3>Books Swapped</h3></div>  
+        <!-- Slider -->
+        <div id="scroll-feature" class="horiz-scroll">
+          <div class="scroller">
+            <div class="scroll-images scrollable-x">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/cc.jpg" alt="Image 1">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/mb.jpeg" alt="Image 2">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/oth.jpg" alt="Image 3">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/gwd.jpeg" alt="Image 4">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/tw.jpg" alt="Image 5">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/dp.jpg" alt="Image 6">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/ji.jpg" alt="Image 7">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/fs.jpg" alt="Image 8">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/wp.jpg" alt="Image 9">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/oms.jpg" alt="Image 10">
+              <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/bs.jpg" alt="Image 11">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="readmore">
+      <h2> <span style = "color: red"> Featured </span>for the day! </h2>
+      <div id = "container">
+        <!-- featured group, book, author, short story --> 
+         <div class="team-slider" id="team-slider">
+
+            <div class="slider-container">
+                <ul class="slider" data-slide="1"> 
+                    <li class="slides" data-id="1" >
+                      <div id="group">
+                        <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/always.jpg">
+                      </div>
+                      <div id="aboutg">
+                        <h4>Popular Group</h4><br>
+                        <h4>Hogwarts Chain of Thoughts</h4><br>
+                        <p>This group is a Harry Potter fan club with insights from J.K. Rowling steering conversations by disclosing secrets and insights about characters, plots and plans about the Potter series.</p>
+                      </div>
+                    </li>
+                    <li class="slides" data-id="2" >
+                      <div id="group">
+                        <img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/ja.jpg">
+                      </div>
+                      <div id="aboutg">
+                        <h4>Popular Author</h4><br>
+                        <h4>Jeffrey Archer</h4><br>
+                        <p>Jeffrey Archer, Baron Archer of Weston-super-mare, is a renowned author English author. His first book, 'Not A Penny More, Not A Penny Less', was written in 1974. 'Kane and Abel' became his 'New York Times' number one bestseller. His current work includes 'The Clifton Chronicles', a series he intends to complete by 2020.</p>
+                      </div>
+                    </li>
+                    <li class="slides" data-id="3" >
+                      <div id="group">
+                        <center><img src="/Users/pri/Documents/MFADT/Sem2/MajorStudio2/ShortProject1/book.it/assets/hmp.jpeg" style="width: 70%;"></center>
+                      </div>
+                      <div id="aboutg">
+                        <h4>Popular Book</h4><br>
+                        <h4>The High Mountains Of Portugal</h4><br>
+                        <p>The book is a set of three delicately connected novellas that take place decades apart. With Martel's signature mixture of humor and pathos, these three stories explore the rugged terrain of grief. But they also contain the author's reflections on the connection between storytelling and faith. -The Washington Post</p>
+                      </div>
+                    </li>
+                </ul>
+            </div>
+ 
+            <div class="slider-bullets">
+                <ul>
+                    <li class="bullet active"><a href="#1" id="bullet-1"></a></li>
+                    <li class="bullet"><a href="#2" id="bullet-2"></a></li>
+                    <li class="bullet"><a href="#3" id="bullet-3"></a></li>
+                </ul>
+            </div> 
+
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+      <!-- menu -->
+      <div id="menu">
+          <a href="about.html"><div>About</div></a>
+          <a href="#"><div>Contact Us</div></a>
+          <a href="#"><div>Privacy Policy</div></a>
+          <a href="references.html"><div>References</div></a>
+      </div>
+      <!-- copyrights -->
+      <div id="copy">Copyright &copy 2016 Priyal Parikh</div>
+    </div>   
+	</body>
+</html>
